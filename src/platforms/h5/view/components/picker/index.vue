@@ -168,13 +168,13 @@ export default {
       type: [Boolean, String],
       default: false
     },
-    confirm_text: {
-      type: String,
-      default: '确定'
-    },
     cancel_text: {
       type: String,
       default: '取消'
+    },
+    confirm_text: {
+      type: String,
+      default: '确认'
     }
   },
   data () {
